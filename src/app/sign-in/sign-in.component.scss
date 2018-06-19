@@ -1,7 +1,7 @@
 @import "../../sass/variables";
 
 .sign-in-content {
-  height: 500px;
+  // height: 500px;
   .sign-in-title {
     text-align: center;
     margin-top: 40px;
@@ -12,9 +12,9 @@
 
   .nosmoking {
     display: block;
-    margin: 25px auto;
+    margin: 26px auto;
     width: 50%;
-    transform: translateY(20px);
+    transform: translateY(21px);
   }
 
   .input-field {
@@ -24,16 +24,22 @@
     height: 40px;
     background-color: #ffffff;
     border: 1px solid $accent-color;
-    margin: 0 auto 10px auto;
+    margin: 5px auto 19px auto;
     border-radius: 5px;
+    text-align: center;
+
     img {
       height: 70%;
       margin-left: 15px;
     }
+
     p {
-      transform: translateY(1px);
+      transform: translateX(-15px);
+      margin: 0 auto;
+      font-size: 14px;
     }
   }
+
   .mini-button {
     display: block;
     width: 30%;

@@ -29,16 +29,12 @@ const appRoutes: Routes = [
   path: 'main',
   component: MainComponent
 },
-// {
-//   path: 'opening',
-//   component: OpeningComponent
-// },
 {
   path: 'register',
   component: RegisterComponent
 },
 {
-  path: 'register-questions',
+  path: 'sign-in/register-questions',
   component: RegisterQuestionsComponent
 },
 {
