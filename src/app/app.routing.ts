@@ -29,10 +29,10 @@ const appRoutes: Routes = [
   path: 'main',
   component: MainComponent
 },
-{
-  path: 'opening',
-  component: OpeningComponent
-},
+// {
+//   path: 'opening',
+//   component: OpeningComponent
+// },
 {
   path: 'register',
   component: RegisterComponent
@@ -59,7 +59,7 @@ const appRoutes: Routes = [
 },
 {
   path: 'time',
-  component: TimeComponent 
+  component: TimeComponent
 }
 
 ];

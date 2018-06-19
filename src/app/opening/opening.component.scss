@@ -1,0 +1,43 @@
+@import "../../sass/variables";
+
+.opening-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  .title {
+    margin-top: 40px;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 10vw;
+  }
+  .nosmoking {
+    display: block;
+    margin: 25px auto;
+    width: 50%;
+  }
+  .big-button {
+    width: 50%;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid $accent-color;
+    border-radius: 20px;
+    margin: 15px auto 25px auto;
+    &:nth-of-type(1) {
+      width: 60%;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .mini-button {
+    width: 30%;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid $accent-color;
+    border-radius: 20px;
+    margin: 15px auto 30px auto;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
