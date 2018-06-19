@@ -34,7 +34,7 @@ const appRoutes: Routes = [
   component: RegisterComponent
 },
 {
-  path: 'sign-in/register-questions',
+  path: 'register/register-questions',
   component: RegisterQuestionsComponent
 },
 {
