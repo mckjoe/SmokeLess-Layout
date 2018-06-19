@@ -1,0 +1,46 @@
+@import "../../sass/variables";
+
+.sign-in-content {
+  height: 500px;
+  .sign-in-title {
+    text-align: center;
+    margin-top: 40px;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 10vw;
+  }
+
+  .nosmoking {
+    display: block;
+    margin: 25px auto;
+    width: 50%;
+    transform: translateY(20px);
+  }
+
+  .input-field {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid $accent-color;
+    margin: 0 auto 10px auto;
+    border-radius: 5px;
+    img {
+      height: 70%;
+      margin-left: 15px;
+    }
+    p {
+      transform: translateY(1px);
+    }
+  }
+  .mini-button {
+    display: block;
+    width: 30%;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid $accent-color;
+    border-radius: 20px;
+    margin: 25px auto 30px auto;
+  }
+}
