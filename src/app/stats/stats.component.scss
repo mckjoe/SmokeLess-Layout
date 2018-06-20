@@ -25,7 +25,7 @@
   .nav-buttons {
     display: flex;
     justify-content: space-evenly;
-    transform: translateY(-5px);
+    transform: translateY(-25px);
     button {
       @include mini-button;
       width: 20%;

@@ -7,11 +7,11 @@
     @include no-smoking-img-mini;
   }
   .stats {
-    transform: translateY(-25px);
+    transform: translateY(-55px);
   }
   .title {
     @include title;
-    transform: translateY(-30px);
+    transform: translateY(-40px);
   }
   .main-stat {
     @include input-field;
@@ -22,7 +22,7 @@
   .nav-buttons {
     display: flex;
     justify-content: space-evenly;
-    transform: translateY(-25px);
+    transform: translateY(-45px);
     button {
       @include mini-button;
       width: 20%;

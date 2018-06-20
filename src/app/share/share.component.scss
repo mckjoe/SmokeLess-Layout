@@ -24,9 +24,10 @@
   .nav-buttons {
     display: flex;
     justify-content: space-evenly;
-    transform: translateY(-87px);
+    transform: translateY(-77px);
     z-index: 999;
     background-color: $background-color;
+
     button {
       @include mini-button;
       width: 20%;
