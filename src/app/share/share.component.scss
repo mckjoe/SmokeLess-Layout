@@ -19,12 +19,17 @@
       padding: 15px;
       background-color: snow;
       border-radius: 5px;
+      img {
+        width: 20%;
+        float: left;
+        margin-right: 15px;
+      }
     }
   }
   .nav-buttons {
     display: flex;
     justify-content: space-evenly;
-    transform: translateY(-77px);
+    transform: translateY(-94px);
     z-index: 999;
     background-color: $background-color;
 
