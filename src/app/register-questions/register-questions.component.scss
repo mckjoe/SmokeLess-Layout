@@ -1,34 +1,18 @@
 @import "../../sass/variables";
+@import "../../sass/mixins";
 
 .register-questions-content {
-  display: flex;
-  flex-direction: column;
+  @include view-container;
+  .q-and-a {
+    margin-top: 55px;
+  }
   h1 {
-    text-align: center;
-    margin-bottom: 5px;
+    @include title;
   }
   .input-field {
-    display: flex;
-    align-items: center;
-    width: 70%;
-    height: 40px;
-    background-color: #ffffff;
-    border: 1px solid $accent-color;
-    margin: 6px auto 19px auto;
-    border-radius: 5px;
-    text-align: center;
-  }
-  .input-field:last-of-type {
-    margin-top: 5px;
-    margin-bottom: 25px;
+    @include input-field;
   }
   .mini-button {
-    display: block;
-    width: 30%;
-    height: 40px;
-    background-color: #ffffff;
-    border: 1px solid $accent-color;
-    border-radius: 20px;
-    margin: 25px auto 35px auto;
+    @include mini-button;
   }
 }

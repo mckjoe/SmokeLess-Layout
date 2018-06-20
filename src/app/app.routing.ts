@@ -26,7 +26,7 @@ const appRoutes: Routes = [
   component: HealthComponent
 },
 {
-  path: 'main',
+  path: 'register/register-questions/main',
   component: MainComponent
 },
 {
