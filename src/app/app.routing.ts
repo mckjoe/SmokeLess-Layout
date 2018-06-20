@@ -13,51 +13,50 @@ import { StatsComponent } from './stats/stats.component';
 import { TimeComponent } from './time/time.component';
 
 const appRoutes: Routes = [
-{
-  path: '',
-  component: OpeningComponent
-},
-{
-  path: 'about',
-  component: AboutComponent
-},
-{
+  {
+    path: '',
+    component: OpeningComponent
+  },
+  {
+    path: 'about',
+    component: AboutComponent
+  },
+  {
   path: 'health',
   component: HealthComponent
-},
-{
-  path: 'register/register-questions/main',
-  component: MainComponent
-},
-{
-  path: 'register',
-  component: RegisterComponent
-},
-{
-  path: 'register/register-questions',
-  component: RegisterQuestionsComponent
-},
-{
-  path: 'share',
-  component: ShareComponent
-},
-{
-  path: 'share-detail',
-  component: ShareDetailComponent
-},
-{
-  path: 'sign-in',
-  component: SignInComponent
-},
-{
-  path: 'stats',
-  component: StatsComponent
-},
-{
-  path: 'time',
-  component: TimeComponent
-}
-
+  },
+  {
+    path: 'home',
+    component: MainComponent
+  },
+  {
+    path: 'register',
+    component: RegisterComponent
+  },
+  {
+    path: 'register-questions',
+    component: RegisterQuestionsComponent
+  },
+  {
+    path: 'share',
+    component: ShareComponent
+  },
+  {
+    path: 'share-detail',
+    component: ShareDetailComponent
+  },
+  {
+    path: 'sign-in',
+    component: SignInComponent
+  },
+  {
+    path: 'stats',
+    component: StatsComponent
+  },
+  {
+    path: 'time',
+    component: TimeComponent
+  }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

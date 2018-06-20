@@ -1,0 +1,31 @@
+@import "../../sass/variables";
+@import "../../sass/mixins";
+
+.stats-container {
+  @include view-container;
+  .no-smoking {
+    @include no-smoking-img-mini;
+  }
+  .title {
+    @include title;
+    margin-bottom: 0;
+    transform: translateY(-55px);
+  }
+  .stats {
+    margin-top: 0;
+    transform: translateY(-30px);
+  }
+  .main-stat {
+    @include input-field;
+    margin-top: 0;
+  }
+  .nav-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    transform: translateY(-5px);
+    button {
+      @include mini-button;
+      width: 20%;
+    }
+  }
+}

@@ -10,6 +10,12 @@
   width: 50%;
 }
 
+@mixin no-smoking-img-mini {
+  display: block;
+  margin-left: 10px;
+  width: 20%;
+}
+
 @mixin mini-button {
   width: 30%;
   height: 40px;

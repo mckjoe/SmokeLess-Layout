@@ -1,0 +1,21 @@
+@import "../../sass/variables";
+@import "../../sass/mixins";
+
+.sign-in-content {
+  @include view-container;
+
+  .sign-in-title {
+    @include title;
+  }
+
+  .nosmoking {
+    @include no-smoking-img;
+    margin-bottom: 25px;
+  }
+  .input-field {
+    @include input-field;
+  }
+  .mini-button {
+    @include mini-button;
+  }
+}
