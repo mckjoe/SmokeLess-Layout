@@ -48,6 +48,8 @@ This site was made with Angular. To view the site in a live development server, 
 ### To view in live development server
 * Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Known Bugs
+At this time there are no known bugs. If you find any or have any questions or suggestions, feel free to email: mckinney.a.joe@gmail.com.
 
 ## Code scaffolding
 
