@@ -1,0 +1,23 @@
+@mixin title {
+  margin: 40px auto 20px auto;
+  font-size: 10vw;
+  transform: translateY(30px);
+}
+
+@mixin no-smoking-img {
+  display: block;
+  margin: 20px auto 0 auto;
+  width: 50%;
+}
+
+@mixin mini-button {
+  width: 30%;
+  height: 40px;
+  background-color: #ffffff;
+  border: 1px solid $accent-color;
+  border-radius: 20px;
+  margin: 10px auto;
+  &:hover {
+    cursor: pointer;
+  }
+}

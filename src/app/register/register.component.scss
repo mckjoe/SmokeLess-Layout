@@ -1,52 +1,31 @@
 @import "../../sass/variables";
+@import "../../sass/mixins";
 
 .sign-in-content {
-  // height: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
   .sign-in-title {
-    text-align: center;
-    margin-top: 40px;
-    font-style: italic;
-    font-weight: lighter;
-    font-size: 10vw;
+    @include title;
   }
 
   .nosmoking {
-    display: block;
-    margin: 27px auto;
-    width: 50%;
-    transform: translateY(23px);
+    @include no-smoking-img;
+    margin-bottom: 25px;
   }
-
   .input-field {
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 65%;
     height: 40px;
     background-color: #ffffff;
     border: 1px solid $accent-color;
-    margin: 5px auto 19px auto;
+    margin: 15px auto 10px auto;
     border-radius: 5px;
     text-align: center;
-
-    img {
-      height: 70%;
-      margin-left: 15px;
-    }
-
-    p {
-      transform: translateX(-15px);
-      margin: 0 auto;
-      font-size: 14px;
-    }
   }
-
   .mini-button {
-    display: block;
-    width: 30%;
-    height: 40px;
-    background-color: #ffffff;
-    border: 1px solid $accent-color;
-    border-radius: 20px;
-    margin: 25px auto 30px auto;
+    @include mini-button;
   }
 }
