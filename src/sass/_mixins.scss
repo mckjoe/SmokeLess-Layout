@@ -1,7 +1,13 @@
+@import "../../sass/keyframes";
+
 @mixin title {
   margin: 40px auto 20px auto;
   font-size: 36px;
-  transform: translateY(30px);
+  animation-name: spinny, opacity;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  z-index: 999;
+
 }
 
 @mixin no-smoking-img {

@@ -1,0 +1,15 @@
+@keyframes spinny {
+  0% {transform: rotateZ(0) translateY(-30px), }
+  25% {transform: rotateZ(90deg) translateY(-39px)}
+  50% {transform: rotateZ(180deg) translateY(-39px)}
+  75% {transform: rotateZ(270deg) translateY(-39px)}
+  100% {transform: rotateZ(360deg) translateY(-45px)}
+}
+
+@keyframes opacity {
+  0% {opacity: 0}
+  25% {opacity: .25}
+  50% {opacity: .5}
+  75% {opacity: .75}
+  100% {opacity: 1}
+}
