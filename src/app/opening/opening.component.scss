@@ -2,9 +2,7 @@
 @import "../../sass/mixins";
 
 .opening-content {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
+  @include view-container;
 
   .title {
     @include title;
@@ -20,15 +18,7 @@
     transform: translateY(30px);
 
     .big-button {
-      width: 50%;
-      height: 40px;
-      background-color: #ffffff;
-      border: 1px solid $accent-color;
-      border-radius: 20px;
-      margin: 10px auto;
-      &:hover {
-        cursor: pointer;
-      }
+      @include big-button;
     }
 
     .mini-button {

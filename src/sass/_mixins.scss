@@ -21,3 +21,33 @@
     cursor: pointer;
   }
 }
+
+@mixin input-field {
+  display: flex;
+  align-items: center;
+  width: 65%;
+  height: 40px;
+  background-color: #ffffff;
+  border: 1px solid $accent-color;
+  margin: 15px auto 10px auto;
+  border-radius: 5px;
+  text-align: center;
+}
+
+@mixin big-button {
+  width: 50%;
+  height: 40px;
+  background-color: #ffffff;
+  border: 1px solid $accent-color;
+  border-radius: 20px;
+  margin: 10px auto;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+@mixin view-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
