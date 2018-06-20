@@ -32,11 +32,22 @@ I am building an app that people can use that will help them continue to not smo
 ## Hold-ups
 I got held up for a while trying to sort out my routing.  I had originally called all of my routes without a slash before them, so when I would click to route it would just add the new route to the path that was already being used. Essentially, when I would go the way of signing up for a new user, by the time it got to the home screen the router was "/register/register-questions/main", so I had to create a new routing path for returning users who went to the login screen and that made it so when they got to the main screen the path was /login/main.  When I learned that a simple "/" would solve all of my problems I danced a jig.  I really thought for a while that I was going to have to create all possible routes to make sure that whichever path someone took they could still get to where they wanted to go.  As I got deeper and deeper into this is when I realized that I needed to approach the problem differently.  I also decided last night that I needed to change the colora that I was using to style my app.  I tried not to change too much because I didn't want to deviate too far from my sketches, but I did re-do my wireframing to show the change and to make sure I liked the final product.  
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+## Important!
+This site was made with Angular. To view the site in a live development server, please clone repository from github to your desktop, enter the project home directory and with command line enter "npm install". this will add all needed dependencies, and then you can run "ng serve --open" in the command line to view the site in a live development server.
 
-## Development server
+## Setup/Installation Requirements
+### To download and intall
+* Start by downloading NPM. Go to their website and follow instructions to download and install.
+* Clone project from GitHub to your desktop with the command line.
+* Enter project root directory.
+* Type "npm install" to download and install all dependencies.
+### To open in Atom text editor
+* type 'atom .' in command line.
+### To view in browser
+* Click link to firebase deployed webpage.  
+### To view in live development server
+* Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
