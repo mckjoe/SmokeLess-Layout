@@ -18,6 +18,9 @@
   .main-stat {
     @include input-field;
     margin-top: 0;
+    display: block;
+    text-align: center;
+    padding: 10px;
   }
   .nav-buttons {
     display: flex;

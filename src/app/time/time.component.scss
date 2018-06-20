@@ -8,6 +8,8 @@
   }
   .stats {
     transform: translateY(-60px);
+    text-align: center;
+
   }
   .title {
     @include title;
@@ -15,7 +17,9 @@
   }
   .main-stat {
     @include input-field;
+    display: block;
     text-align: center;
+    padding: 10px;
   }
   .nav-buttons {
     display: flex;

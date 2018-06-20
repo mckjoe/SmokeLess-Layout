@@ -3,11 +3,15 @@
 
 .register-questions-content {
   @include view-container;
+  .no-smoking {
+    @include no-smoking-img-mini;
+  }
   .q-and-a {
-    margin-top: 55px;
+    transform: translateY(-30px);
   }
   h1 {
     @include title;
+    transform: translateY(-40px);
   }
   .input-field {
     @include input-field;

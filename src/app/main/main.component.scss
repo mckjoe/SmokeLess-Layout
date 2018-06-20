@@ -15,13 +15,14 @@
   }
   .main-stat {
     @include input-field;
-    margin: 0 auto;
+    padding: 10px;
+    display: block;
     text-align: center;
   }
   .nav-buttons {
     display: flex;
     justify-content: space-evenly;
-    transform: translateY(-10px);
+    transform: translateY(-25px);
     button {
       @include mini-button;
       width: 20%;
