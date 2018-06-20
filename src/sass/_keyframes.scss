@@ -13,3 +13,8 @@
   75% {opacity: .75}
   100% {opacity: 1}
 }
+
+@keyframes hover-color {
+  0% {background-color: orange; color: red}
+  100% {background-color: white; color: black}
+}
