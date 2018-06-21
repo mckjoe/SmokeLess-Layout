@@ -9,16 +9,19 @@
   }
 
   .stats {
-    transform: translateY(-80px);
+    -webkit-transform: translateY(-80px);
+            transform: translateY(-80px);
     text-align: center;
     @include mQ(322px) {
-      transform: translateY(-60px);
+      -webkit-transform: translateY(-60px);
+              transform: translateY(-60px);
     }
   }
 
   .title {
     @include title;
-    transform: translateY(-60px);
+    -webkit-transform: translateY(-60px);
+            transform: translateY(-60px);
   }
 
   .main-stat {
@@ -27,12 +30,15 @@
 
   .nav-buttons {
     @include nav-buttons;
-    transform: translateY(-74px);
+    -webkit-transform: translateY(-74px);
+            transform: translateY(-74px);
     @include mQ(322px) {
-      transform: translateY(-29px);
+      -webkit-transform: translateY(-29px);
+              transform: translateY(-29px);
     }
     @include mQ-regular-phone(377px) {
-      transform: translateY(47px);
+      -webkit-transform: translateY(47px);
+              transform: translateY(47px);
     }
     button {
       @include mini-button;

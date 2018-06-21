@@ -10,28 +10,34 @@
 
   .title {
     @include title;
-    transform: translateY(-60px);
+    -webkit-transform: translateY(-60px);
+            transform: translateY(-60px);
   }
 
   .about {
     @include paragraph-styles;
     margin: 10px;
-    transform: translateY(-80px);
+    -webkit-transform: translateY(-80px);
+            transform: translateY(-80px);
   }
 
   .nav-buttons {
     @include nav-buttons;
-    transform: translateY(-40px);
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
 
     button {
       @include mini-button;
       width: 20%;
-      transform: translateY(3px);
+      -webkit-transform: translateY(3px);
+              transform: translateY(3px);
       @include mQ(322px) {
-      transform: translateY(92px);
+      -webkit-transform: translateY(92px);
+              transform: translateY(92px);
       }
       @include mQ-regular-phone(377px) {
-        transform: translateY(100px);
+        -webkit-transform: translateY(100px);
+                transform: translateY(100px);
       }
     }
   }

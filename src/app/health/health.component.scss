@@ -9,14 +9,17 @@
   }
   .title {
     @include title;
-    transform: translateY(-65px);
+    -webkit-transform: translateY(-65px);
+            transform: translateY(-65px);
   }
   .health-bennefit {
     margin: 0 10px;
     text-align: left;
-    transform: translateY(-80px);
+    -webkit-transform: translateY(-80px);
+            transform: translateY(-80px);
     @include mQ(322px) {
-      transform: translateY(-60px);
+      -webkit-transform: translateY(-60px);
+              transform: translateY(-60px);
     }
     p {
       @include paragraph-styles;
@@ -24,13 +27,16 @@
   }
   .nav-buttons {
     @include nav-buttons;
-    transform: translateY(-71px);
+    -webkit-transform: translateY(-71px);
+            transform: translateY(-71px);
 
     @include mQ(322px) {
-      transform: translateY(-26px);
+      -webkit-transform: translateY(-26px);
+              transform: translateY(-26px);
     }
     @include mQ-regular-phone(377px) {
-      transform: translateY(50px);
+      -webkit-transform: translateY(50px);
+              transform: translateY(50px);
     }
     button {
       @include mini-button;

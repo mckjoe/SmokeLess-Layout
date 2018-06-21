@@ -7,11 +7,13 @@
     @include no-smoking-img-mini;
   }
   .q-and-a {
-    transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
   }
   h1 {
     @include title;
-    transform: translateY(-40px);
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
   }
   .input-field {
     @include input-field;

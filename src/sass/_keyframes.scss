@@ -1,9 +1,25 @@
+@-webkit-keyframes spinny {
+  0% {-webkit-transform: rotateZ(0) translate(0);transform: rotateZ(0) translate(0)}
+  25% {-webkit-transform: rotateZ(90deg) translate(200px);transform: rotateZ(90deg) translate(200px)}
+  50% {-webkit-transform: rotateZ(180deg) translate(100px);transform: rotateZ(180deg) translate(100px)}
+  75% {-webkit-transform: rotateZ(270deg) translate(0px);transform: rotateZ(270deg) translate(0px)}
+  100% {-webkit-transform: rotateZ(360deg) translate(-50px);transform: rotateZ(360deg) translate(-50px)}
+}
+
 @keyframes spinny {
-  0% {transform: rotateZ(0) translate(0)}
-  25% {transform: rotateZ(90deg) translate(200px)}
-  50% {transform: rotateZ(180deg) translate(100px)}
-  75% {transform: rotateZ(270deg) translate(0px)}
-  100% {transform: rotateZ(360deg) translate(-50px)}
+  0% {-webkit-transform: rotateZ(0) translate(0);transform: rotateZ(0) translate(0)}
+  25% {-webkit-transform: rotateZ(90deg) translate(200px);transform: rotateZ(90deg) translate(200px)}
+  50% {-webkit-transform: rotateZ(180deg) translate(100px);transform: rotateZ(180deg) translate(100px)}
+  75% {-webkit-transform: rotateZ(270deg) translate(0px);transform: rotateZ(270deg) translate(0px)}
+  100% {-webkit-transform: rotateZ(360deg) translate(-50px);transform: rotateZ(360deg) translate(-50px)}
+}
+
+@-webkit-keyframes opacity {
+  0% {opacity: 0}
+  25% {opacity: .25}
+  50% {opacity: .5}
+  75% {opacity: .75}
+  100% {opacity: 1}
 }
 
 @keyframes opacity {
@@ -12,6 +28,11 @@
   50% {opacity: .5}
   75% {opacity: .75}
   100% {opacity: 1}
+}
+
+@-webkit-keyframes hover-color {
+  0% {background-color: orange; color: red}
+  100% {background-color: white; color: black}
 }
 
 @keyframes hover-color {

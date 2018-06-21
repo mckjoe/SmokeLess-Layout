@@ -11,14 +11,17 @@
   .title {
     @include title;
     margin-bottom: 0;
-    transform: translateY(-70px);
+    -webkit-transform: translateY(-70px);
+            transform: translateY(-70px);
   }
 
   .stats {
     margin-top: 0;
-    transform: translateY(-60px);
+    -webkit-transform: translateY(-60px);
+            transform: translateY(-60px);
     @include mQ(322px) {
-      transform: translateY(-50px);
+      -webkit-transform: translateY(-50px);
+              transform: translateY(-50px);
     }
   }
 
@@ -29,12 +32,15 @@
 
   .nav-buttons {
     @include nav-buttons;
-    transform: translateY(-45px);
+    -webkit-transform: translateY(-45px);
+            transform: translateY(-45px);
     @include mQ(322px) {
-      transform: translateY(0);
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
     }
     @include mQ-regular-phone(377px) {
-      transform: translateY(76px);
+      -webkit-transform: translateY(76px);
+              transform: translateY(76px);
     }
 
     button {

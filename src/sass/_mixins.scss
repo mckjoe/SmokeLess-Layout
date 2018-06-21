@@ -3,9 +3,12 @@
 @mixin title {
   margin: 40px auto 20px auto;
   font-size: 36px;
-  animation-name: spinny, opacity;
-  animation-duration: 1s;
-  animation-timing-function: linear;
+  -webkit-animation-name: spinny, opacity;
+          animation-name: spinny, opacity;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
   z-index: 999;
 
 }
@@ -35,14 +38,19 @@
     cursor: pointer;
     background-color: snow;
     text-decoration: underline;
-    animation-name: hover-color;
-    animation-duration: .5s;
-    animation-fill-mode: forwards;
+    -webkit-animation-name: hover-color;
+            animation-name: hover-color;
+    -webkit-animation-duration: .5s;
+            animation-duration: .5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
   }
 }
 
 @mixin input-field {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 65%;
   height: 40px;
   background-color: snow;
@@ -67,21 +75,33 @@
     cursor: pointer;
     background-color: snow;
     text-decoration: underline;
-    animation-name: hover-color;
-    animation-duration: .5s;
-    animation-fill-mode: forwards;
+    -webkit-animation-name: hover-color;
+            animation-name: hover-color;
+    -webkit-animation-duration: .5s;
+            animation-duration: .5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
   }
 }
 
 @mixin view-container {
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 @mixin nav-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   background-color: $background-color;
   z-index: 999;
 }
