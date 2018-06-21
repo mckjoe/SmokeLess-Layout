@@ -51,6 +51,15 @@ This site was made with Angular. To view the site in a live development server, 
 ## Known Bugs
 At this time there are no known bugs. If you find any or have any questions or suggestions, feel free to email: mckinney.a.joe@gmail.com.
 
+## Technologies Used
+* HTML
+* CSS
+* Sass
+* Angular
+* Auto-Prefixer
+* Firebase
+* Sketch (wireframes and prototyping) 
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
