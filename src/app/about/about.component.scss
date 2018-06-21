@@ -3,28 +3,33 @@
 
 .view-container {
   @include view-container;
+
   .no-smoking {
     @include no-smoking-img-mini;
   }
+
   .title {
     @include title;
-    transform: translateY(-50px);
+    transform: translateY(-60px);
   }
+
   .about {
-    background-color: snow;
+    @include paragraph-styles;
     margin: 10px;
-    padding: 15px;
-    text-align: left;
+    transform: translateY(-80px);
   }
+
   .nav-buttons {
-    display: flex;
-    justify-content: space-evenly;
-    transform: translateY(-20px);
-    z-index: 999;
-    background-color: $background-color;
+    @include nav-buttons;
+    transform: translateY(-40px);
+
     button {
       @include mini-button;
       width: 20%;
+      transform: translateY(3px);
+      @include mQ(322px) {
+        transform: translateY(92px);
+      }
     }
   }
 }

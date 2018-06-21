@@ -42,7 +42,7 @@
 }
 
 @mixin input-field {
-  display: flex;
+  // display: flex;
   align-items: center;
   width: 65%;
   height: 40px;
@@ -51,6 +51,9 @@
   margin: 15px auto 10px auto;
   border-radius: 5px;
   text-align: center;
+  display: block;
+  text-align: center;
+  padding: 8px;
 }
 
 @mixin big-button {
@@ -75,6 +78,19 @@
   text-align: center;
   display: flex;
   flex-direction: column;
+}
+
+@mixin nav-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: $background-color;
+  z-index: 999;
+}
+
+@mixin paragraph-styles {
+  padding: 15px;
+  background-color: snow;
+  border-radius: 5px;
 }
 
 @mixin mQ($arg) {

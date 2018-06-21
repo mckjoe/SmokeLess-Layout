@@ -3,9 +3,11 @@
 
 .view-container {
   @include view-container;
+
   .no-smoking {
     @include no-smoking-img-mini;
   }
+
   .stats {
     transform: translateY(-80px);
     text-align: center;
@@ -13,19 +15,18 @@
       transform: translateY(-60px);
     }
   }
+
   .title {
     @include title;
     transform: translateY(-60px);
   }
+
   .main-stat {
     @include input-field;
-    display: block;
-    text-align: center;
-    padding: 8px;
   }
+
   .nav-buttons {
-    display: flex;
-    justify-content: space-evenly;
+    @include nav-buttons;
     transform: translateY(-74px);
     @include mQ(322px) {
       transform: translateY(-29px);

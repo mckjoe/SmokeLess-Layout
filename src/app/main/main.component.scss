@@ -18,13 +18,9 @@
   }
   .main-stat {
     @include input-field;
-    padding: 7px;
-    display: block;
-    text-align: center;
   }
   .nav-buttons {
-    display: flex;
-    justify-content: space-evenly;
+    @include nav-buttons;
     transform: translateY(-65px);
     @include mQ(322px) {
       transform: translateY(-20px);

@@ -19,9 +19,7 @@
       transform: translateY(-80px);
     }
     p {
-      padding: 15px;
-      background-color: snow;
-      border-radius: 5px;
+      @include paragraph-styles;
       img {
         width: 20%;
         float: left;
@@ -30,11 +28,8 @@
     }
   }
   .nav-buttons {
-    display: flex;
-    justify-content: space-evenly;
+    @include nav-buttons;
     transform: translateY(-131px);
-    z-index: 999;
-    background-color: $background-color;
     @include mQ(322px) {
       transform: translateY(-69px);
     }
