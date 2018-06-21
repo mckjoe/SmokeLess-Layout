@@ -9,12 +9,15 @@
   }
   .title {
     @include title;
-    transform: translateY(-50px);
+    transform: translateY(-70px);
   }
   .health-bennefit {
     margin: 0 10px;
     text-align: left;
-    transform: translateY(-70px);
+    transform: translateY(-100px);
+    @include mQ(322px) {
+      transform: translateY(-80px);
+    }
     p {
       padding: 15px;
       background-color: snow;
@@ -29,10 +32,12 @@
   .nav-buttons {
     display: flex;
     justify-content: space-evenly;
-    transform: translateY(-94px);
+    transform: translateY(-131px);
     z-index: 999;
     background-color: $background-color;
-
+    @include mQ(322px) {
+      transform: translateY(-69px);
+    }
     button {
       @include mini-button;
       width: 20%;

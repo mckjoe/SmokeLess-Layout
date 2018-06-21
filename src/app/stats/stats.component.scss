@@ -9,23 +9,29 @@
   .title {
     @include title;
     margin-bottom: 0;
-    transform: translateY(-55px);
+    transform: translateY(-70px);
   }
   .stats {
     margin-top: 0;
-    transform: translateY(-30px);
+    transform: translateY(-60px);
+    @include mQ(322px) {
+      transform: translateY(-50px);
+    }
   }
   .main-stat {
     @include input-field;
     margin-top: 0;
     display: block;
     text-align: center;
-    padding: 10px;
+    padding: 8px;
   }
   .nav-buttons {
     display: flex;
     justify-content: space-evenly;
-    transform: translateY(-25px);
+    transform: translateY(-45px);
+    @include mQ(322px) {
+      transform: translateY(0);
+    }
     button {
       @include mini-button;
       width: 20%;

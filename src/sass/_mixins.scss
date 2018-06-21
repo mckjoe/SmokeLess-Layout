@@ -1,4 +1,4 @@
-@import "../../sass/keyframes";
+@import "keyframes";
 
 @mixin title {
   margin: 40px auto 20px auto;
@@ -75,4 +75,10 @@
   text-align: center;
   display: flex;
   flex-direction: column;
+}
+
+@mixin mQ($arg) {
+  @media screen and (min-width: $arg) {
+    @content;
+  }
 }

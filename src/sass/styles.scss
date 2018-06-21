@@ -1,4 +1,5 @@
 @import "variables";
+@import "mixins";
 
 * {
   box-sizing: border-box;
@@ -14,8 +15,12 @@ body {
   background-color: $background-color;
   border: 4px solid $accent-color;
   width: 320px;
-  height: 586px;
+  height: 568px;
   border-radius: 5px;
+  @include mQ(322px) {
+    width: 375px;
+    height: 667px;
+  }
 }
 
 a {

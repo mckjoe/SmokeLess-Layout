@@ -1,9 +1,9 @@
 @keyframes spinny {
-  0% {transform: rotateZ(0) translateY(-30px), }
-  25% {transform: rotateZ(90deg) translateY(-39px)}
-  50% {transform: rotateZ(180deg) translateY(-39px)}
-  75% {transform: rotateZ(270deg) translateY(-39px)}
-  100% {transform: rotateZ(360deg) translateY(-45px)}
+  0% {transform: rotateZ(0) translate(0)}
+  25% {transform: rotateZ(90deg) translate(200px)}
+  50% {transform: rotateZ(180deg) translate(100px)}
+  75% {transform: rotateZ(270deg) translate(0px)}
+  100% {transform: rotateZ(360deg) translate(-50px)}
 }
 
 @keyframes opacity {

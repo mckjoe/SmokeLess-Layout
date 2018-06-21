@@ -7,22 +7,28 @@
     @include no-smoking-img-mini;
   }
   .stats {
-    transform: translateY(-55px);
+    transform: translateY(-80px);
+    @include mQ(322px) {
+      transform: translateY(-60px);
+    }
   }
   .title {
     @include title;
-    transform: translateY(-40px);
+    transform: translateY(-60px);
   }
   .main-stat {
     @include input-field;
-    padding: 10px;
+    padding: 7px;
     display: block;
     text-align: center;
   }
   .nav-buttons {
     display: flex;
     justify-content: space-evenly;
-    transform: translateY(-45px);
+    transform: translateY(-65px);
+    @include mQ(322px) {
+      transform: translateY(-20px);
+    }
     button {
       @include mini-button;
       width: 20%;
