@@ -97,3 +97,8 @@
     @content;
   }
 }
+@mixin mQ-regular-phone($arg) {
+  @media screen and (min-width: $arg) {
+    @content;
+  }
+}

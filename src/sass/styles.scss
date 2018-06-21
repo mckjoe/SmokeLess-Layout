@@ -21,6 +21,10 @@ body {
     width: 375px;
     height: 667px;
   }
+  @include mQ-regular-phone(377px) {
+    width: 414px;
+    height: 736px;
+  }
 }
 
 a {

@@ -28,7 +28,10 @@
       width: 20%;
       transform: translateY(3px);
       @include mQ(322px) {
-        transform: translateY(92px);
+      transform: translateY(92px);
+      }
+      @include mQ-regular-phone(377px) {
+        transform: translateY(100px);
       }
     }
   }

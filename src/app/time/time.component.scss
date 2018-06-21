@@ -31,6 +31,9 @@
     @include mQ(322px) {
       transform: translateY(-29px);
     }
+    @include mQ-regular-phone(377px) {
+      transform: translateY(47px);
+    }
     button {
       @include mini-button;
       width: 20%;

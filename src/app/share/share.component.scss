@@ -33,9 +33,18 @@
     @include mQ(322px) {
       transform: translateY(-69px);
     }
+    @include mQ-regular-phone(377px) {
+      transform: translateY(-120px);
+    }
     button {
       @include mini-button;
       width: 20%;
     }
+  }
+}
+#big-phone-content {
+  display: none;
+  @include mQ-regular-phone(377px) {
+    display: block;
   }
 }
